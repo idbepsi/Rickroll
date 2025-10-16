@@ -1,4 +1,4 @@
-/* Reset et variables */
+/* a reset a 0 si je casse le site */
 * {
     margin: 0;
     padding: 0;
@@ -224,14 +224,14 @@ footer {
     z-index: 1;
    
 }
-
+/*Footer navbar */
 .main-navigation {
     display: flex;
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
 }
-
+/*footer nav bar a*/
 .main-navigation a {
     color: white;
     text-decoration: none;
@@ -359,7 +359,7 @@ img {
     50% { transform: scale(1.05); }
     100% { transform: scale(1); }
 }
-
+/*scrollbar remplacé par le webkit*/
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -377,6 +377,7 @@ img {
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
 }
+/*fait un boostrap si fail*/
 .sticknav {
     position: sticky;
     top: 0;
@@ -389,7 +390,7 @@ img {
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 0.5rem;
 }
-
+/*box de chaque element de la navbar du haut*/
 .sticknav a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -401,7 +402,7 @@ img {
     transition: all 0.3s ease;
     display: inline-block;
 }
-
+/* naaaah j'ai Kc le ouvaire a cause du sticky'*/
 .sticknav a:hover {
 
 @media (max-width: 768px) {
